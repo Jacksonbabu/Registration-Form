@@ -1,0 +1,134 @@
+body{ 
+    background: repeating-radial-gradient( purple, springgreen ); 
+    background-position: center; 
+    background-repeat: no-repeat ; 
+    font-family: Roboto,Sans-serif; 
+   } 
+   .form{ 
+    height: 1100px; 
+    font-weight: 100; 
+    text-shadow: 1px 0px teal ; 
+    width: 600px; 
+    margin: auto; 
+   } 
+   .required{ 
+   font-size: 13px; 
+   color: red; 
+   } 
+   .title-div{ 
+    height: 150px; 
+    width: 600px; 
+    background-color: #FDFEFE; 
+    margin: 15px; 
+    border-radius: 8px; 
+    border-top: 8px solid ; 
+    padding: 25px; 
+   } 
+   .name-div, .college-div, .gmail-div, .feedback-div{ 
+    height: 150px; 
+    width: 650px; 
+    background-color: #FDFEFE; 
+    margin: 15px; 
+    border-radius: 8px; 
+   } 
+   .name{ 
+    padding-top: 20px; 
+    padding-left: 25px; 
+    padding-bottom: 25px; 
+    font-size: 15px; 
+   } 
+   .input-div{ 
+    padding-top: 25px; 
+    padding-left: 25px; 
+   } 
+   .input-div input{ 
+    width: 300px; 
+    border: 0; 
+    outline: 0; 
+    border-bottom: 1.5px solid #DCD7D7; 
+    font-size: 15px; 
+   } 
+   .container { 
+    display: block; 
+    position: relative; 
+    padding-left: 45px; 
+    margin-bottom: 12px; 
+    cursor: pointer; 
+    font-size: 15px; 
+    
+   } 
+   .container input { 
+    position: absolute; 
+    opacity: 0; 
+    cursor: pointer; 
+    height: 0; 
+    width: 0; 
+   } 
+   .checkmark { 
+    position: absolute; 
+    top: 0px; 
+    left: 15px; 
+    height: 15px; 
+    width: 15px; 
+    background-color: transparent ; 
+   } 
+   .container:hover input .checkmark { 
+    background-color: whitesmoke; 
+   }.container input:checked ~ .checkmark { 
+    background-color: cyan; 
+   } 
+   .checkmark:after { 
+    content: ""; 
+    position: absolute; 
+    
+   } 
+   .container .checkmark:after { 
+    display: block; 
+   } 
+   .container .checkmark:after { 
+    left: 5px; 
+    top: 5px; 
+    width: 5px; 
+    height: 5px; 
+    border: solid white; 
+    border-bottom-right-radius: 5px 5px; 
+    border-top-right-radius: 5px 5px ; 
+    border-top-left-radius: 5px 5px; 
+    border-bottom-left-radius: 5px 5px ; 
+    border-width: 0.5px 0.5px 0.5px 0.5px; 
+    -webkit-transform: rotate(45deg); 
+    -ms-transform: rotate(45deg); 
+    transform: rotate(45deg); 
+   } 
+   .btn{ 
+    height: 36px; 
+    width: 100px; 
+    background: linear-gradient(aliceblue, cyan); 
+    border-radius: 5px; 
+    font-size: 14px; 
+    letter-spacing: .5px; 
+    font-weight: 540; 
+    border: none; 
+    padding: 10px; 
+    position: absolute; 
+    margin: 15px; 
+    color: black; 
+   } 
+   .last-div h2{ 
+    text-align: center; 
+    padding-top: 50px; 
+    color: #a2a4a6; 
+    font-weight: 200; 
+   } 
+   .term{ 
+    font-size: 12px; 
+    padding-left: 65px; 
+    padding-top: 5px; 
+    position: absolute; 
+   } 
+   .never{ 
+    padding-left: 15px; 
+    font-size: 12px; 
+    padding-top: 70px; 
+    font-weight: 400; 
+   }
